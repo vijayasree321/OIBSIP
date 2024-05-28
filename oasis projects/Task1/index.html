@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Food</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: rgb(7, 5, 5);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        img:hover {
+            transform: scaleX(-1);
+        }
+        h1{
+            font-size: 50px;
+            font-weight: 600;
+            color: #f8fbfc;
+            text-shadow: 0px 0px 5px #0c0fe6, 0px 0px 10px #0c19a6, 0px 0px 10px #0836da,0px 0px 20px #030ba4;
+            border-style:groove;
+            border-radius: 10px;
+            border-color:#e29912;
+        }
+        main {
+            width: 80%;
+        }.dish .description p {
+            color: #d8cfcf;
+            font-size: 1em;
+        }
+        .dish .description h2 {
+            color: #19d2bf;
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #e7d321;
+            border: none;
+            color: #000000;
+            text-align: center;
+            font-size: 28px;
+            float: left;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin-left:650px;
+  
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+            }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="head1">
+        <h1 align="center">INDIAN FOOD</h1>
+    </div>
+    <br>
+    <br>
+    <section class="dish">
+        <img src="biryani.jpg" alt="Biryani">
+        <div class="description">
+            <h2>Biryani</h2>
+            <p>Biryani is a mixed rice dish originating from the Indian subcontinent. It is made with Indian spices, rice, and usually some type of meat (chicken, beef, goat, pork, lamb, prawn, fish), or in some cases, eggs or vegetables such as potatoes.Biryani is one of the most popular dishes in South Asia and among the South Asian diaspora, although the dish is often associated with the region's Muslim population in particular.[3] Similar dishes are also prepared in other parts of the world such as in Iraq, Myanmar, Thailand, and Malaysia.[4] Biryani is the single most-ordered dish on Indian online food ordering and delivery services, and has been labelled as the most popular dish overall in India.</p>
+        </div>
+    </section>
+    <section class="dish">
+        <div class="description">
+            <h2>Butter Chicken</h2>
+            <p>Butter Chicken, also known as Murgh Makhani, is a popular dish in Indian cuisine. It consists of chicken in a mildly spiced curry sauce and is known for its rich, creamy texture and buttery flavor.Chicken is marinated for several hours in a mixture of lemon juice, dahi (yogurt), Kashmiri red chili, salt, garam masala, ginger paste, and garlic paste.
+                The marinated chicken is cooked in a tandoor (traditional clay oven), but may be grilled, oven-roasted, or pan-fried. It is served in a mild curry sauce that includes butter. The sauce is a tomato, garlic, and ginger-based sauce that is simmered until smooth and much of the water has evaporated. There are many variations on the composition and spicing of the sauce, which is sieved so that it is velvety smooth. Spices may include cardamom, cumin, cloves, cinnamon, coriander, pepper, garam masala, and fenugreek (Punjabi/Hindi: kasuri methi). Cashew paste may be used as a thickener and it is finally garnished with coriander.</p>
+        </div>
+        <img src="butter.jpg" alt="Butter Chicken">
+    </section>
+    <section class="dish">
+        <img src="samosa.jpg" alt="Samosa">
+        <div class="description">
+            <h2>Samosa</h2>
+            <p>Samosa is a fried or baked pastry with a savory filling, such as spiced potatoes, onions, peas, or lentils. It is a popular snack in the Indian subcontinent and other regions of the world.
+                Samosas can have many different fillings, including spiced potatoes, peas, onions, meat, or fish. Fillings can be mild, fragrant, or hot, and can include ingredients like ginger, garlic, chilies, cumin, or other spices. Samosas are often served hot with masala tea and tamarind chutney. 
+            </p>
+        </div>
+    </section>
+    <section class="dish">
+        <div class="description">
+            <h2>Dosa</h2>
+            <p>Dosa is a type of thin, crispy pancake made from a fermented batter of rice and black gram. It is a staple food in South Indian cuisine and is usually served with sambar and chutney.In its most simple form, dosa is crispy and crepe-like and is a very popular street food in India. Dosa is famous for its simple ingredients and savory, slightly bitter flavor. It can be eaten as a snack, breakfast, or anytime you’re in the mood for a delicious, savory meal! 
+
+                Originating in southern India, the crispy dosa has been around since the 5th century AD. It’s said that dosa was first referenced by Chalukya King Somesvara III in Tamil literature in 1054 AD. Like many Indian foods, dosa varies depending on region and occasion. </p>
+        </div>
+        <img src="dosa.jpg" alt="Dosa">
+    </section>
+    <section class="dish">
+        <img src="jamun.jpg" alt="Gulab Jamun">
+        <div class="description">
+            <h2>Gulab Jamun</h2>
+            <p>Gulab Jamun is a classic Indian dessert made from milk solids, which are kneaded into a dough, shaped into balls, and deep-fried before being soaked in a sugary syrup flavored with cardamom and rose water.Gulab jamun (pronounced “goe-laab DJA-moen“) is a well-known and popular Indian dessert made of fried dough balls. A type of dumpling, gulab jamun is soaked in a sweet, sticky syrup. Gulab means ‘rose water’ so, as per tradition, the sugar syrup has a delicate rose flavour. A jamun is an Indian berry with a size and colour comparable to the dough balls, hence the name: Gulab jamun.</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <div class="btn">
+        <a href="https://www.cozymeal.com/magazine/indian-food"><button class="button" style="vertical-align:middle"><span>More items </span></button></div><a>
+    </div>
+
+    
+</body>
+</html>
